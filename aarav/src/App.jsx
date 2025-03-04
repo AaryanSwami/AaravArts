@@ -6,7 +6,7 @@ import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
-    <Router basename="/AaravArts"> {/* ✅ Add basename */}
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/all-shorts" element={<AllShorts />} />

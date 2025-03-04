@@ -16,12 +16,13 @@ const Footer = () => {
           {/* Navigation Links */}
           <nav className="my-4 md:my-0">
   <ul className="flex space-x-6">
-    <li><Link to="/AaravArts/#/" className="hover:text-blue-500">Home</Link></li>
-    <li><Link to="/AaravArts/#/all-shorts" className="hover:text-blue-500">Shorts</Link></li>
-    <li><Link to="/AaravArts/#/about-page" className="hover:text-blue-500">About</Link></li>
-    <li><Link to="/AaravArts/#/contact-page" className="hover:text-blue-500">Contact</Link></li>
+    <li><a href="/AaravArts/#/" className="hover:text-blue-500">Home</a></li>
+    <li><a href="/AaravArts/#/all-shorts" className="hover:text-blue-500">Shorts</a></li>
+    <li><a href="/AaravArts/#/about-page" className="hover:text-blue-500">About</a></li>
+    <li><a href="/AaravArts/#/contact-page" className="hover:text-blue-500">Contact</a></li>
   </ul>
 </nav>
+
 
 
 

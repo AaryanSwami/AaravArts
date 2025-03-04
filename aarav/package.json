@@ -3,7 +3,8 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AaryanSwami.github.io/AaravArts",
+  "homepage": "https://aaryanswami.github.io/AaravArts"
+,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
