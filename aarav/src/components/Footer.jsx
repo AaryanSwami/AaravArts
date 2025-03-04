@@ -1,25 +1,29 @@
 import React from "react";
+import { Link } from "react-router-dom"; // ✅ Import Link from React Router
 import { FaYoutube, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-300 py-6 transition-all">
       <div className="container mx-auto px-6">
+
         {/* Footer Content */}
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
-          
+
           {/* Logo / Site Name */}
           <h2 className="text-xl font-bold">My Shorts Site</h2>
 
           {/* Navigation Links */}
           <nav className="my-4 md:my-0">
-            <ul className="flex space-x-6">
-              <li><a href="/" className="hover:text-blue-500">Home</a></li>
-              <li><a href="/all-shorts" className="hover:text-blue-500">Shorts</a></li>
-              <li><a href="/about-page" className="hover:text-blue-500">About</a></li>
-              <li><a href="/contact-page" className="hover:text-blue-500">Contact</a></li>
-            </ul>
-          </nav>
+  <ul className="flex space-x-6">
+    <li><Link to="/AaravArts/#/" className="hover:text-blue-500">Home</Link></li>
+    <li><Link to="/AaravArts/#/all-shorts" className="hover:text-blue-500">Shorts</Link></li>
+    <li><Link to="/AaravArts/#/about-page" className="hover:text-blue-500">About</Link></li>
+    <li><Link to="/AaravArts/#/contact-page" className="hover:text-blue-500">Contact</Link></li>
+  </ul>
+</nav>
+
+
 
           {/* Social Media Links */}
           <div className="flex space-x-4">

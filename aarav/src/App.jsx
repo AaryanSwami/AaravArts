@@ -1,12 +1,12 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
-import AboutPage from "./components/AboutPage.jsx";
-import AllShorts from "./components/AllShorts.jsx"; 
-import ContactPage from "./components/ContactPage.jsx";
+import AboutPage from "./components/AboutPage";
+import AllShorts from "./components/AllShorts";
+import ContactPage from "./components/ContactPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/AaravArts"> {/* ✅ Add basename */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/all-shorts" element={<AllShorts />} />
